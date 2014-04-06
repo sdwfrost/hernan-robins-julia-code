@@ -3,7 +3,7 @@ using DataFrames
 using GLM
 
 # Read in CSV file
-nhefs = readtable("/home/simon/Dropbox/books/hernan/julia/nhefs.csv")
+nhefs = readtable("nhefs.csv")
 
 # Get dimensions
 size(nhefs)
